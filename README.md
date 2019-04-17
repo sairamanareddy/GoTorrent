@@ -1,5 +1,5 @@
 # GoTorrent
- [![CircleCI](https://circleci.com/gh/IITH-SBJoshi/concurrency-8/tree/master.svg?style=svg&circle-token=88f8e60508e4f98f339d7b395c228c6f309c2564)](https://circleci.com/gh/IITH-SBJoshi/concurrency-8/tree/master) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IITH-SBJoshi/concurrency-8/blob/master/LICENSE) [![GoDoc](https://godoc.org/github.com/narqo/go-badge?status.svg)](https://iith-sbjoshi.github.io/concurrency-8/pkg/github.com/concurrency-8)
+[![CircleCI](https://circleci.com/gh/sairamanareddy/GoTorrent.svg?style=svg)](https://circleci.com/gh/sairamanareddy/GoTorrent) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IITH-SBJoshi/concurrency-8/blob/master/LICENSE) [![GoDoc](https://godoc.org/github.com/narqo/go-badge?status.svg)](https://sairamanareddy.github.io/GoTorrent/pkg/github.com/concurrency-8/)
  
 Bit-torrent client implementation as part of CS2433 (Principles of Programming Language II ) by Prof. Saurabh Joshi .
 
@@ -13,8 +13,8 @@ Bit-torrent client implementation as part of CS2433 (Principles of Programming L
 
 ## Description
 1. **Objective**
-	- Get familair with writing concurrent programs.
-	- Using software technologies like Continous Integration , Unit Testing , Documentation .
+	- Get familiar with writing concurrent programs.
+	- Using software technologies like Continous Integration, Unit Testing, Documentation.
 2. **Features**
 	- Downloading multiple torrent files concurrently.
 	- Fetching Peer lists from both HTTP and UDP Trackers.
@@ -25,7 +25,7 @@ Bit-torrent client implementation as part of CS2433 (Principles of Programming L
 3. **Team**
 	- Shraiysh Gupta (CS17BTECH11050)
 	- Puneet Mangla (CS17BTECH11029)
-	- Lingam Sai Ramana Reddy (Cs17BTECH11022)
+	- Lingam Sai Ramana Reddy (CS17BTECH11022)
 	- Hitesh (MA17BTECH11004)
 
 ## Documentation
@@ -62,38 +62,6 @@ Bit-torrent client implementation as part of CS2433 (Principles of Programming L
 | ```--resume -r```  | True to resume partially downloaded files. | false |
 | ```--help```  | Print this help message and exit. |- |
 | ```--verbose -v```  | True if misc output is required. False otherwise. | false |
-
-## Guidelines for contribution :
-1. Take open issues and ask for assignment in comment section.
-2. **Working on seperate branch**
-	- Clone the repository : ```git clone https://github.com/IITH-SBJoshi/concurrency-8.git```
-	- Create a issue specific branch in cloned repository : ```git checkout -b issue#<issue number>```
-	- Run the code by following the steps above
-	- You can now start working on your current branch
-3. **Testing the changes**
-	- Run the test cases if any: ```go test <test file>.go```
-	- Check the linting (Install [golint](https://github.com/golang/lint), if not already installed): ```golint <file_name>```
-	- Run `./build.sh` to check if the build passes
-
-	Note: If running `goreportcard-cli -v` shows errors in the files that are in the `vendor/` directory, ignore those issues. The TRAVIS build will take care that those files are not checked.
-4. **Commiting the changes**
-	- Update ```.gitignore``` if there is any need .
-	- To add changes in your working directory : ```git add .```
-	- Commit your changes : ```git commit -m "<message>"```
-	- Follow a simple commit message guideline eg . ``` Fix <issue_id> : <small description> Author@<your name>```
-5. **Pushing the changes**
-	- Get current master: `git fetch origin master`
-	- Merge master with your branch: `git merge master`
-	- Push your changes : ```git push origin <your branch name>:<your branch name>```
-	- Make sure that ```Travis CI build``` is passed.
-6. **Generating Pull requests :**
-	- [Generate a pull request](https://help.github.com/articles/about-pull-requests/) from your ```branch``` branch to ```master``` branch.
-	- Give the PR and apt title, and mention `Fixes #<issue_number>` in the comment to link it with the issue.
-	- Don't close the issue by your own.
-7. **Commenting your Code**
-	- Include your comments directly preceding an object for GoDoc to document it.
-	- Indent pre-formatted comments.
-	- Refer to the [Guidelines](https://blog.golang.org/godoc-documenting-go-code) for more info on commenting.
 
 ### External Packages
 - [github.com/zeebo/bencode](https://github.com/zeebo/bencode/blob/master/LICENSE)
