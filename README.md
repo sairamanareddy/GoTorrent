@@ -1,5 +1,5 @@
 # GoTorrent
- [![CircleCI](https://circleci.com/gh/IITH-SBJoshi/concurrency-8/tree/master.svg?style=svg&circle-token=88f8e60508e4f98f339d7b395c228c6f309c2564)](https://circleci.com/gh/IITH-SBJoshi/concurrency-8/tree/master) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IITH-SBJoshi/concurrency-8/blob/master/LICENSE) [![GoDoc](https://godoc.org/github.com/narqo/go-badge?status.svg)](https://iith-sbjoshi.github.io/concurrency-8/pkg/github.com/concurrency-8)
+[![CircleCI](https://circleci.com/gh/sairamanareddy/GoTorrent.svg?style=svg)](https://circleci.com/gh/sairamanareddy/GoTorrent) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IITH-SBJoshi/concurrency-8/blob/master/LICENSE) [![GoDoc](https://godoc.org/github.com/narqo/go-badge?status.svg)](https://sairamanareddy.github.io/GoTorrent/pkg/github.com/concurrency-8/)
  
 Bit-torrent client implementation as part of CS2433 (Principles of Programming Language II ) by Prof. Saurabh Joshi .
 
@@ -13,8 +13,8 @@ Bit-torrent client implementation as part of CS2433 (Principles of Programming L
 
 ## Description
 1. **Objective**
-	- Get familair with writing concurrent programs.
-	- Using software technologies like Continous Integration , Unit Testing , Documentation .
+	- Get familiar with writing concurrent programs.
+	- Using software technologies like Continous Integration, Unit Testing, Documentation.
 2. **Features**
 	- Downloading multiple torrent files concurrently.
 	- Fetching Peer lists from both HTTP and UDP Trackers.
@@ -25,7 +25,7 @@ Bit-torrent client implementation as part of CS2433 (Principles of Programming L
 3. **Team**
 	- Shraiysh Gupta (CS17BTECH11050)
 	- Puneet Mangla (CS17BTECH11029)
-	- Lingam Sai Ramana Reddy (Cs17BTECH11022)
+	- Lingam Sai Ramana Reddy (CS17BTECH11022)
 	- Hitesh (MA17BTECH11004)
 
 ## Documentation
